@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	chat a;
+	char a;
 
 	for (a = 'a'; a <= 'z'; a++)
 		putchar(a);
