@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * print_times_table - times table function
@@ -27,7 +27,7 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
-					_utchar('0' + prod);
+					_putchar('0' + prod);
 				} else if (prod > 99)
 				{
 					_putchar(',');
